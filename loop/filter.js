@@ -49,6 +49,9 @@ const books = [
   ];
   
 
-  const myBooks = books.filter((book) => (book.genre === "Philosophical" && book.year >= 1988))
+//   const myBooks = books.filter((book) => (book.genre === "Philosophical" && book.year >= 1988))
 
+const myBooks = books.filter((book) => {
+    return book.title  === "1984"
+})
   console.log(myBooks)
