@@ -11,3 +11,12 @@ console.log(newNumber);
 console.log(myNums.filter( (number) =>(number > 6)));
 
 
+// The filter with Arrow function 
+
+const myNum2 =  myNums.filter((num)=>{
+
+  return  num === 5
+})
+
+
+console.log(myNum2);
